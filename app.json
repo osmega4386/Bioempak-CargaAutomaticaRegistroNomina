@@ -1,0 +1,40 @@
+{
+  "id": "690d0808-7e11-40d3-b007-1f278f7d0ff7",
+  "name": "OSMG Carga Automatica Registro Nomina",
+  "publisher": "Bioempak S.A.S",
+  "version": "19.0.0.0",
+  "brief": "",
+  "description": "Extensión para carga automática registro nómina",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "assets/logo2021.png",
+  "dependencies": [
+    {
+      "id": "7d43e2e4-1dad-467d-8708-8d6bf19189d7",
+      "publisher": "Bioempak S.A.S",
+      "name": "Extension Base",
+      "version": "19.0.0.1"
+    }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "19.0.0.0",
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50549
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": false,
+    "includeSourceInSymbolFile": false
+  },
+  "runtime": "8.0",
+  "target": "OnPrem",
+  "features": [
+    "TranslationFile"
+  ]
+}
