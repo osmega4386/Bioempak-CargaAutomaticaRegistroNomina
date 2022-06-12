@@ -171,7 +171,7 @@ report 50018 "Export / Import Gen Journal"
         Text024: Label 'Day';
         Text025: Label 'Month';
         Text026: Label 'Year';
-        Text027: Label 'Amount (Intger Part)';
+        Text027: Label 'Amount (Integer Part)';
         Text028: Label 'Amount (Decimal Part)';
         Text029: Label 'Fixed Asset';
         Text030: Label 'IC Partner';
@@ -217,10 +217,10 @@ report 50018 "Export / Import Gen Journal"
         TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION(Amount), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("Bal. Account Type"), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("Bal. Account No."), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
-        TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("VAT Registration Type"), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
+        TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("D1 VAT Registration Type"), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("VAT Registration No."), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
-        TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("Bal. VAT Registration Type"), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
-        TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("Bal. VAT Registration No."), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
+        TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("D1 Bal. VAT Registration Type"), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
+        TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("D1 Bal. VAT Registration No."), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("Shortcut Dimension 1 Code"), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(GenJnlLine.FIELDCAPTION("Shortcut Dimension 2 Code"), false, '', true, false, false, '', TempExcelBuffer."Cell Type"::Text);
     end;
@@ -246,9 +246,9 @@ report 50018 "Export / Import Gen Journal"
         TempExcelBuffer.AddColumn(Format(GenJnlLine."Bal. Account Type"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(GenJnlLine."Bal. Account No.", false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(Format(GenJnlLine."VAT Registration No."), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
-        TempExcelBuffer.AddColumn(Format(GenJnlLine."VAT Registration Type"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
-        TempExcelBuffer.AddColumn(Format(GenJnlLine."Bal. VAT Registration No."), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
-        TempExcelBuffer.AddColumn(Format(GenJnlLine."Bal. VAT Registration Type"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
+        TempExcelBuffer.AddColumn(Format(GenJnlLine."D1 VAT Registration Type"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
+        TempExcelBuffer.AddColumn(Format(GenJnlLine."D1 Bal. VAT Registration No."), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
+        TempExcelBuffer.AddColumn(Format(GenJnlLine."D1 Bal. VAT Registration Type"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(Format(GenJnlLine."Shortcut Dimension 1 Code"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
         TempExcelBuffer.AddColumn(Format(GenJnlLine."Shortcut Dimension 2 Code"), false, '', false, false, false, '', TempExcelBuffer."Cell Type"::Text);
     end;
@@ -411,11 +411,11 @@ report 50018 "Export / Import Gen Journal"
                         // if TextNoFormat = Text023 then
                         //     "VAT Registration Type" := "VAT Registration Type"::Foreign;
 
-                        Validate("VAT Registration Type", TextNoFormat);
+                        Validate("D1 VAT Registration Type", TextNoFormat);
                     end;
 
                 17:
-                    "Bal. VAT Registration No." := DELCHR(TextNoFormat, '>', ' ');
+                    "D1 Bal. VAT Registration No." := DELCHR(TextNoFormat, '>', ' ');
 
                 18:
 
@@ -431,7 +431,7 @@ report 50018 "Export / Import Gen Journal"
                         //                 if TextNoFormat = Text023 then
                         //                     "Bal. VAT Registration Type" := "Bal. VAT Registration Type"::"5";
 
-                        Validate("Bal. VAT Registration Type", TextNoFormat);
+                        Validate("D1 Bal. VAT Registration Type", TextNoFormat);
                     end;
 
                 19:

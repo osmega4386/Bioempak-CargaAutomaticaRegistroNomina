@@ -16,6 +16,12 @@
       "publisher": "Bioempak S.A.S",
       "name": "Extension Base",
       "version": "19.0.0.1"
+    },
+    {
+        "id": "5b99b513-4b42-43ef-86fe-f0b236c92746",
+        "name": "Localizacion Colombia",
+        "publisher": "Dynamics One",
+        "version": "19.0.0.2"
     }
   ],
   "screenshots": [],

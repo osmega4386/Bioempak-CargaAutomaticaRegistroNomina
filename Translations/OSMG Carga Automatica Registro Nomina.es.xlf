@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="es" original="OSMG Carga Automatica Registro Nomina">
+    <body>
+      <group id="body">
+        <trans-unit id="Report 228225981 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export / Import Gen Journal</source>
+          <target>Exportar/Importar Diario General</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 1954781630" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data</source>
+          <target>Datos</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType DataLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 2499179930" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1_%2_%3</source>
+          <target>%1_%2_%3</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType ExcelFileName</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 2528574997" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File does not exit</source>
+          <target>El archivo no existe</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType FileErr</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 3114637384" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General Journal</source>
+          <target>Diario General</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text001</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 3752334001" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Journal Template Name don't be blank</source>
+          <target>El nombre del libro diario no debe estar en blanco</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text002</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 95063322" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Journal Batch Name don't be blank</source>
+          <target>El nombre de la sección del diario no debe estar en blanco</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text003</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 2008153173" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment</source>
+          <target>Pago</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text006</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 2645849790" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <target>Factura</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text007</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 3283546407" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Memo</source>
+          <target>Nota crédito</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text008</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 3921243024" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finance Charge Memo</source>
+          <target>Docs. interés</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text009</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 1664139952" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reminder</source>
+          <target>Recordatorio</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text010</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 1026443335" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Refund</source>
+          <target>Reembolso</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text011</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 2939533186" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debit Memo</source>
+          <target>Nota débito</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text012</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 2301836569" size-unit="char" translate="yes" xml:space="preserve">
+          <source>G/L Account</source>
+          <target>Cuenta</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text013</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 4214926420" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer</source>
+          <target>Cliente</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text014</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 3577229803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Vendor</source>
+          <target>Proveedor</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text015</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 1195352358" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bank Account</source>
+          <target>Banco</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text016</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 219837695" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NIT</source>
+          <target>NIT</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text019</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 1940672225" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C.C.</source>
+          <target>C.C.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text020</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 2578368842" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C.C.+DV</source>
+          <target>C.C.+DV</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text021</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 665278991" size-unit="char" translate="yes" xml:space="preserve">
+          <source>C.E.</source>
+          <target>C.E.</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text022</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 1302975608" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Foreign</source>
+          <target>Extranjera</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text023</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 196491397" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Day</source>
+          <target>Día</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text024</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 834188014" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Month</source>
+          <target>Mes</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text025</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 3216065459" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Year</source>
+          <target>Año</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text026</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 3853762076" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (Integer Part)</source>
+          <target>Importe (Parte entera)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text027</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 2747277865" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Amount (Decimal Part)</source>
+          <target>Importe (Parte decimal)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text028</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 3384974482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fixed Asset</source>
+          <target>Activo fijo</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text029</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 1148659762" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IC Partner</source>
+          <target>Socio IC</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType Text030</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - NamedType 4273853447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Select file..</source>
+          <target>Selecciona el archivo..</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - NamedType UploadExcelMsg</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - Control 989751795 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <target>Nombre del archivo</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - Control FileName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - Control 4104898276 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sheet Name</source>
+          <target>Nombre hoja de trabajo</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - Control SheetName - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Report 228225981 - Control 3427196358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation Type</source>
+          <target>Tipo de operación</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Export / Import Gen Journal - Control ShowPrint - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3136659427 - Action 3601403957 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2583272393">
+          <source>Export / Import Payroll</source>
+          <target>Exportar / Importar Nomina</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension OSMG General Journal - Action Export / Import Payroll - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3156524383 - EnumValue 3209057264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import from Excel</source>
+          <target>Importar desde Excel</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Operation Type - EnumValue Import from Excel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 3156524383 - EnumValue 2478146767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Print to Excel</source>
+          <target>Imprimir a Excel</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Operation Type - EnumValue Print to Excel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="EnumExtension 3476701007 - EnumValue 4274704704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2880478064">
+          <source>Debit Memo</source>
+          <target>Nota débito</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension OSMG Gen. Journal Doc Type - EnumValue Debit Memo - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
