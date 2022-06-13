@@ -196,7 +196,10 @@ report 50018 "Export / Import Gen Journal"
 
     local procedure ReadExcelSheet()
     begin
-        TempExcelBuffer.OpenBook(FileName, SheetName);
+        TempExcelBuffer.Reset();
+        TempExcelBuffer.DeleteAll();
+        //TempExcelBuffer.OpenBook(FileName, SheetName);
+        TempExcelBuffer.OpenBookStream(Istream, SheetName);
         TempExcelBuffer.ReadSheet;
     end;
 
@@ -312,7 +315,7 @@ report 50018 "Export / Import Gen Journal"
         Window.Close();
     end;
 
-    local procedure InsertField(_Field: Integer; TextNoFormat: Text[20])
+    local procedure InsertField(_Field: Integer; TextNoFormat: Text)
     var
         Amt: Decimal;
     begin
