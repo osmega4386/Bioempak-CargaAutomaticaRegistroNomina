@@ -225,12 +225,6 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Operation Type - EnumValue Print to Excel - Property Caption</note>
         </trans-unit>
-        <trans-unit id="EnumExtension 3476701007 - EnumValue 4274704704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Enum 2880478064">
-          <source>Debit Memo</source>
-          <target>Nota débito</target>
-          <note from="Developer" annotates="general" priority="2"/>
-          <note from="Xliff Generator" annotates="general" priority="3">EnumExtension OSMG Gen. Journal Doc Type - EnumValue Debit Memo - Property Caption</note>
-        </trans-unit>
       </group>
     </body>
   </file>

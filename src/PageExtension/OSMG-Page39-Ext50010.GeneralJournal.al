@@ -1,4 +1,4 @@
-pageextension 50100 "OSMG General Journal" extends "General Journal"
+pageextension 50232 "OSMG General Journal" extends "General Journal"
 {
     layout
     {
@@ -31,7 +31,4 @@ pageextension 50100 "OSMG General Journal" extends "General Journal"
             }
         }
     }
-
-    var
-        myInt: Integer;
 }

@@ -1,4 +1,4 @@
-enum 50100 "Operation Type"
+enum 50080 "Operation Type"
 {
     Extensible = true;
 
